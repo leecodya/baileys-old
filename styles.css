@@ -1,0 +1,28 @@
+.navbar-inverse{
+    background-color:#1162E8 !important;
+    font-weight: bold !important;
+}
+.jumbotron{
+    background-image: url(/images/placeholder.png);
+    padding: 80px 0 !important;
+}
+.home-jumbotron{
+    background-color: #555555;
+}
+hr{
+    border-top: 5px solid #f0f0f0 !important;
+}
+.center{
+    text-align:center !important;
+}
+.right{
+    text-align: right !important;
+}
+.left{
+    text-align: left !important;
+}
+.why-us{
+    margin-top:2%;
+    padding:3%;
+    background-color: #f0f0f0;
+}
