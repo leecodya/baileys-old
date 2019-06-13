@@ -6,7 +6,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .jumbotron{
-    background-image: url(/images/placeholder.png);
+    background-image: url(images/placeholder.png);
     padding: 80px 0 !important;
 }
 .home-jumbotron{
