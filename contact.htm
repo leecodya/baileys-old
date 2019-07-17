@@ -2,23 +2,31 @@
     <h1 class="center serif"><b>Contact Us</b></h1>
 </div>
 <div class="container" style="margin-bottom:2%">
-    <form action="">
-        <div class="form-group">
-            <label for="name">Name:</label>
-            <input type="text" class="form-control" id="name">
+    <div class="row">
+        <div class="col-md-6">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="phone" class="form-control" id="phone">
+                </div>
+                <div class="form-group">
+                    <label for="comments">Comments:</label><br>
+                    <textarea name="message" id="comments" style="width:100%" rows="5"></textarea><br>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
-        <div class="form-group">
-            <label for="email">Email address:</label>
-            <input type="email" class="form-control" id="email">
+        <div class="col-md-6" style="margin-top:10%; padding-left:15%">
+                <h4><span class="glyphicon glyphicon-phone"></span>&nbsp;&nbsp;Phone: <a href="tel:4782581601">478-258-1601</a></h4>   <br>             
+                <h4><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;Email: <a href="mailto:brant804@gmail.com">brant804@gmail.com</a></h4>
         </div>
-        <div class="form-group">
-            <label for="phone">Phone:</label>
-            <input type="phone" class="form-control" id="phone">
-        </div>
-        <div class="form-group">
-            <label for="comments">Comments:</label><br>
-            <textarea name="message" id="comments" style="width:100%" rows="5"></textarea><br>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+    </div>
 </div>
