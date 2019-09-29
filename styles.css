@@ -27,7 +27,7 @@ hr{
 .left{
     text-align: left !important;
 }
-.why-us, .service2, .service4, #beforeAfter, .history{
+.service2, .service4, #beforeAfter, .history{
     margin-top:2%;
     padding:2%;
     background-color: #f0f0f0;
@@ -51,6 +51,10 @@ hr{
 }
 #equipment img, #beforeAfter img{
     max-height:220px;
+}
+.install-page h2, .sales-page h2, .service-page h2{
+    border-left: 5px solid #1162E8;
+    padding-left: 0.5em;
 }
 
 
